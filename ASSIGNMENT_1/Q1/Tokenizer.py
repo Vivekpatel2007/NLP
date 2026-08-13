@@ -153,8 +153,8 @@ def process_and_save_batch(sentences_batch,batch_num):
     return 0, []
 
 dataset=local_text_stream(INPUT_FILE)
-max_sentences=10000
-batch_size=1000  
+max_sentences=1100000 # Procces Upto 11 lakh Sentences
+batch_size=100000
 output_dir="tokenized_gujarati_corpus"
 os.makedirs(output_dir, exist_ok=True)
 
