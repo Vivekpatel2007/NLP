@@ -40,13 +40,13 @@ ASSIGNMENT_1/
     ├── Tokenizer.py                   # Main script for sentence and word tokenization
     ├── parquet_to_txt.py              # Utility script to convert Parquet files to CSV/TXT/Excel
     ├── tokenized_gujarati_corpus/     # Output directory containing generated Parquet files
-    │   ├── gujarati_tokenized_batch_0001.parquet
+    │   ├── gujarati_tokenized_batch_0001.parquet 
     │   ├── gujarati_tokenized_batch_0002.parquet
     │   └── ...
     └── tempCodeRunnerFile.py          # Temporary VS Code file (can be ignored)
 ```
 
-
+**NOTE : Currently output file are of total 10000 sentences. But Code is Updated for 11 lakh sentences.Due larger output file we have uploaded sample output files**
 
 ## Approach
 
@@ -122,3 +122,20 @@ The tokenizer generated the following statistics for the processed Gujarati corp
 | Average word length | **4.41 characters** |
 | Type/Token Ratio (TTR) | **0.1959** |
 | Number of batches created | **10** |
+
+
+for  max_sentences=1100000,batch_size=100000
+
+The tokenizer generated the following statistics for the processed Gujarati corpus:
+
+
+
+| Metric | Value |
+|--------|------:|
+| Total number of sentences | **1,099,721** |
+| Total number of words | **16,351,576** |
+| Total number of characters | **71,695,431** |
+| Average sentence length | **14.87 words** |
+| Average word length | **4.38 characters** |
+| Type/Token Ratio (TTR) | **0.0315** |
+| Number of batches created | **11** |
