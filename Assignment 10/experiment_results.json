@@ -1,0 +1,405 @@
+{
+  "analogy_results": {
+    "Word2Vec": {
+      "categories": {
+        "capital-common-countries": {
+          "correct": 416,
+          "total": 506,
+          "accuracy": 0.8221343873517787
+        },
+        "capital-world": {
+          "correct": 3687,
+          "total": 4524,
+          "accuracy": 0.8149867374005305
+        },
+        "currency": {
+          "correct": 138,
+          "total": 866,
+          "accuracy": 0.15935334872979215
+        },
+        "city-in-state": {
+          "correct": 1795,
+          "total": 2467,
+          "accuracy": 0.7276043777867855
+        },
+        "family": {
+          "correct": 392,
+          "total": 506,
+          "accuracy": 0.7747035573122529
+        },
+        "gram1-adjective-to-adverb": {
+          "correct": 287,
+          "total": 992,
+          "accuracy": 0.28931451612903225
+        },
+        "gram2-opposite": {
+          "correct": 263,
+          "total": 812,
+          "accuracy": 0.32389162561576357
+        },
+        "gram3-comparative": {
+          "correct": 1193,
+          "total": 1332,
+          "accuracy": 0.8956456456456456
+        },
+        "gram4-superlative": {
+          "correct": 758,
+          "total": 1122,
+          "accuracy": 0.6755793226381461
+        },
+        "gram5-present-participle": {
+          "correct": 776,
+          "total": 1056,
+          "accuracy": 0.7348484848484849
+        },
+        "gram6-nationality-adjective": {
+          "correct": 1366,
+          "total": 1599,
+          "accuracy": 0.8542839274546592
+        },
+        "gram7-past-tense": {
+          "correct": 1033,
+          "total": 1560,
+          "accuracy": 0.6621794871794872
+        },
+        "gram8-plural": {
+          "correct": 1044,
+          "total": 1332,
+          "accuracy": 0.7837837837837838
+        },
+        "gram9-plural-verbs": {
+          "correct": 555,
+          "total": 870,
+          "accuracy": 0.6379310344827587
+        }
+      },
+      "total_correct": 13703,
+      "total_tested": 19544,
+      "overall_accuracy": 0.7011358984854686
+    },
+    "GloVe": {
+      "categories": {
+        "capital-common-countries": {
+          "correct": 483,
+          "total": 506,
+          "accuracy": 0.9545454545454546
+        },
+        "capital-world": {
+          "correct": 4312,
+          "total": 4524,
+          "accuracy": 0.9531388152077808
+        },
+        "currency": {
+          "correct": 95,
+          "total": 866,
+          "accuracy": 0.10969976905311778
+        },
+        "city-in-state": {
+          "correct": 1507,
+          "total": 2467,
+          "accuracy": 0.6108633968382651
+        },
+        "family": {
+          "correct": 402,
+          "total": 506,
+          "accuracy": 0.7944664031620553
+        },
+        "gram1-adjective-to-adverb": {
+          "correct": 204,
+          "total": 992,
+          "accuracy": 0.2056451612903226
+        },
+        "gram2-opposite": {
+          "correct": 179,
+          "total": 812,
+          "accuracy": 0.2204433497536946
+        },
+        "gram3-comparative": {
+          "correct": 1164,
+          "total": 1332,
+          "accuracy": 0.8738738738738738
+        },
+        "gram4-superlative": {
+          "correct": 653,
+          "total": 1122,
+          "accuracy": 0.5819964349376114
+        },
+        "gram5-present-participle": {
+          "correct": 673,
+          "total": 1056,
+          "accuracy": 0.6373106060606061
+        },
+        "gram6-nationality-adjective": {
+          "correct": 1482,
+          "total": 1599,
+          "accuracy": 0.926829268292683
+        },
+        "gram7-past-tense": {
+          "correct": 932,
+          "total": 1560,
+          "accuracy": 0.5974358974358974
+        },
+        "gram8-plural": {
+          "correct": 987,
+          "total": 1332,
+          "accuracy": 0.740990990990991
+        },
+        "gram9-plural-verbs": {
+          "correct": 459,
+          "total": 870,
+          "accuracy": 0.5275862068965518
+        }
+      },
+      "total_correct": 13532,
+      "total_tested": 19544,
+      "overall_accuracy": 0.6923864101514531
+    },
+    "FastText": {
+      "categories": {
+        "capital-common-countries": {
+          "correct": 492,
+          "total": 506,
+          "accuracy": 0.9723320158102767
+        },
+        "capital-world": {
+          "correct": 4347,
+          "total": 4524,
+          "accuracy": 0.9608753315649867
+        },
+        "currency": {
+          "correct": 51,
+          "total": 866,
+          "accuracy": 0.05889145496535797
+        },
+        "city-in-state": {
+          "correct": 2004,
+          "total": 2467,
+          "accuracy": 0.8123226591001216
+        },
+        "family": {
+          "correct": 369,
+          "total": 506,
+          "accuracy": 0.7292490118577075
+        },
+        "gram1-adjective-to-adverb": {
+          "correct": 574,
+          "total": 992,
+          "accuracy": 0.5786290322580645
+        },
+        "gram2-opposite": {
+          "correct": 449,
+          "total": 812,
+          "accuracy": 0.5529556650246306
+        },
+        "gram3-comparative": {
+          "correct": 1259,
+          "total": 1332,
+          "accuracy": 0.9451951951951952
+        },
+        "gram4-superlative": {
+          "correct": 597,
+          "total": 1122,
+          "accuracy": 0.5320855614973262
+        },
+        "gram5-present-participle": {
+          "correct": 949,
+          "total": 1056,
+          "accuracy": 0.8986742424242424
+        },
+        "gram6-nationality-adjective": {
+          "correct": 1464,
+          "total": 1599,
+          "accuracy": 0.9155722326454033
+        },
+        "gram7-past-tense": {
+          "correct": 1073,
+          "total": 1560,
+          "accuracy": 0.6878205128205128
+        },
+        "gram8-plural": {
+          "correct": 1122,
+          "total": 1332,
+          "accuracy": 0.8423423423423423
+        },
+        "gram9-plural-verbs": {
+          "correct": 668,
+          "total": 870,
+          "accuracy": 0.767816091954023
+        }
+      },
+      "total_correct": 15418,
+      "total_tested": 19544,
+      "overall_accuracy": 0.7888866148178469
+    }
+  },
+  "nn_results": {
+    "Word2Vec": {
+      "avg": {
+        "accuracy": 0.787,
+        "macro_f1": 0.7848047937005391,
+        "confusion_matrix": [
+          [
+            444,
+            56
+          ],
+          [
+            157,
+            343
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.7387687188019967,
+            "recall": 0.888,
+            "f1": 0.8065395095367847
+          },
+          "class_1": {
+            "precision": 0.8596491228070176,
+            "recall": 0.686,
+            "f1": 0.7630700778642937
+          }
+        },
+        "train_time": 4.350942134857178
+      },
+      "tfidf": {
+        "accuracy": 0.691,
+        "macro_f1": 0.6684118860925077,
+        "confusion_matrix": [
+          [
+            215,
+            285
+          ],
+          [
+            24,
+            476
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.899581589958159,
+            "recall": 0.43,
+            "f1": 0.5818673883626522
+          },
+          "class_1": {
+            "precision": 0.6254927726675427,
+            "recall": 0.952,
+            "f1": 0.7549563838223631
+          }
+        },
+        "train_time": 3.7902965545654297
+      }
+    },
+    "GloVe": {
+      "avg": {
+        "accuracy": 0.766,
+        "macro_f1": 0.765696342459828,
+        "confusion_matrix": [
+          [
+            401,
+            99
+          ],
+          [
+            135,
+            365
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.7481343283582089,
+            "recall": 0.802,
+            "f1": 0.7741312741312741
+          },
+          "class_1": {
+            "precision": 0.7866379310344828,
+            "recall": 0.73,
+            "f1": 0.7572614107883818
+          }
+        },
+        "train_time": 4.048237085342407
+      },
+      "tfidf": {
+        "accuracy": 0.742,
+        "macro_f1": 0.7407295749170937,
+        "confusion_matrix": [
+          [
+            336,
+            164
+          ],
+          [
+            94,
+            406
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.7813953488372093,
+            "recall": 0.672,
+            "f1": 0.7225806451612903
+          },
+          "class_1": {
+            "precision": 0.712280701754386,
+            "recall": 0.812,
+            "f1": 0.7588785046728972
+          }
+        },
+        "train_time": 3.850318193435669
+      }
+    },
+    "FastText": {
+      "avg": {
+        "accuracy": 0.609,
+        "macro_f1": 0.5426039289269675,
+        "confusion_matrix": [
+          [
+            495,
+            5
+          ],
+          [
+            386,
+            114
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.5618615209988649,
+            "recall": 0.99,
+            "f1": 0.7168718320057929
+          },
+          "class_1": {
+            "precision": 0.957983193277311,
+            "recall": 0.228,
+            "f1": 0.3683360258481422
+          }
+        },
+        "train_time": 4.111558198928833
+      },
+      "tfidf": {
+        "accuracy": 0.75,
+        "macro_f1": 0.7470495863754837,
+        "confusion_matrix": [
+          [
+            429,
+            71
+          ],
+          [
+            179,
+            321
+          ]
+        ],
+        "per_class": {
+          "class_0": {
+            "precision": 0.7055921052631579,
+            "recall": 0.858,
+            "f1": 0.7743682310469314
+          },
+          "class_1": {
+            "precision": 0.8188775510204082,
+            "recall": 0.642,
+            "f1": 0.719730941704036
+          }
+        },
+        "train_time": 7.731916904449463
+      }
+    }
+  }
+}

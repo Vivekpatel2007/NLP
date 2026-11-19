@@ -1,0 +1,16 @@
+Category,Word2Vec_Accuracy,GloVe_Accuracy,FastText_Accuracy,Word2Vec_Correct,GloVe_Correct,FastText_Correct,Total_Questions
+"capital-common-countries",0.8221,0.9545,0.9723,416,483,492,506
+"capital-world",0.8150,0.9531,0.9609,3687,4312,4347,4524
+"currency",0.1594,0.1097,0.0589,138,95,51,866
+"city-in-state",0.7276,0.6109,0.8123,1795,1507,2004,2467
+"family",0.7747,0.7945,0.7292,392,402,369,506
+"gram1-adjective-to-adverb",0.2893,0.2056,0.5786,287,204,574,992
+"gram2-opposite",0.3239,0.2204,0.5530,263,179,449,812
+"gram3-comparative",0.8956,0.8739,0.9452,1193,1164,1259,1332
+"gram4-superlative",0.6756,0.5820,0.5321,758,653,597,1122
+"gram5-present-participle",0.7348,0.6373,0.8987,776,673,949,1056
+"gram6-nationality-adjective",0.8543,0.9268,0.9156,1366,1482,1464,1599
+"gram7-past-tense",0.6622,0.5974,0.6878,1033,932,1073,1560
+"gram8-plural",0.7838,0.7410,0.8423,1044,987,1122,1332
+"gram9-plural-verbs",0.6379,0.5276,0.7678,555,459,668,870
+"OVERALL",0.7011,0.6924,0.7889,13703,13532,15418,19544

@@ -1,0 +1,22 @@
+# Large raw datasets
+train.csv
+test.csv
+
+# Pretrained word vectors and models (> 100MB, cannot be uploaded to GitHub)
+*.txt
+!questions-words.txt
+*.vec
+*.bin
+*.model
+*.model*
+*.kv
+*.kv*
+*.npy
+*.npz
+
+# Sentence embedding vectors
+sentence_embeddings/
+
+# Python cache
+__pycache__/
+*.pyc
